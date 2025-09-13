@@ -40,7 +40,7 @@ header {
 footer {
     border-top: 4px lightgreen;
     border-top-style: double;
-    clear:both
+    clear:both;
 }
 
 #lists {
@@ -56,13 +56,9 @@ table { margin: auto;}
 
 #hyperlinks {clear:both; float:left; }
 
-#images {
-    float: right;
-}
+#images {float: right;}
 
-figure {
-    border: 2px solid #ccc;
-}
+figure {border: 2px solid #ccc;}
 
 #lists, #images, #tables, #hyperlinks {
     width: 50%;
@@ -79,6 +75,6 @@ footer p {display:inline-block;  width:33%}
 
 footer p:first-child { float:left; }
 
-footer p:nth-child(2) {text-align: center; }
+footer p:nth-child(2) {text-align: center;}
 
-footer p:last-child {float:right; text-align:right; }
+footer p:last-child {float:right; text-align:right;}
